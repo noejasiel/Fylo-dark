@@ -1,0 +1,61 @@
+.hero {
+  background-color: hsl(218, 28%, 13%);
+  .conteiner-img {
+    width: 100%;
+    img {
+      width: 100%;
+    }
+  }
+  // segunda parte de mi seccion
+  .conteiner-img {
+    .cont-p {
+      .conteiner-input-arrow {
+        input {
+          background-color: hsla(217, 28%, 15%, 0.5);
+          border-top-left-radius: 25px;
+          border-top-right-radius: 25px;
+        }
+      }
+    }
+    img {
+      max-width: 100%;
+    }
+    h2 {
+      text-align: center;
+      color: $White;
+      margin: 1.5em 1em;
+    }
+    p {
+      text-align: center;
+      color: $White;
+      margin: 1.5em 1em;
+    }
+    .conteiner-input-arrow {
+      display: flex;
+      justify-content: center;
+      padding-bottom: 2.3em;
+
+      .des-mute {
+        display: block;
+      }
+      .des-mute {
+        background-color: $DarkBlue-main;
+        border: none;
+        border-bottom: 1px solid $Cyan;
+        outline: none;
+        cursor: text;
+        padding-bottom: 0;
+      }
+      .des-mute::placeholder {
+        text-align: center;
+        color: $Cyan;
+        font-size: 19px;
+      }
+      .img-arror {
+        display: inline-block;
+        width: 8%;
+        border-bottom: 1px solid $Cyan;
+      }
+    }
+  }
+}

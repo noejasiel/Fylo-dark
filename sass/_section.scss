@@ -1,0 +1,88 @@
+section {
+}
+.other-color {
+  background-color: hsl(218, 28%, 13%);
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  // para centarr mi boton a, es un lio
+  align-items: center;
+}
+.img-text {
+  width: 100%;
+  position: relative;
+  margin: 3em auto;
+  top: 80px;
+  margin-bottom: 0;
+  img {
+    width: 100%;
+  }
+  // .text-first {
+  //   display: flex;
+  //   justify-content: center;
+  //   flex-direction: column;
+  // }
+  div h1 {
+    text-align: center;
+    color: $White;
+    padding: 1em 2em;
+    background-image: url("../images/bg-curvy-mobile.svg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-attachment: scroll;
+    background-size: cover;
+  }
+  div p {
+    text-align: center;
+    color: $White;
+    padding: 2em 1em;
+    margin: 0 1.5em;
+  }
+  div a {
+    display: inline-block;
+    text-align: center;
+    border: 1px solid $White;
+    width: 50%;
+    // transform: translateX(-20%);
+    padding: 1em;
+    margin-bottom: 4em;
+    text-decoration: none;
+    border-radius: 30px;
+    color: $White;
+    background-color: $Cyan;
+    border: none;
+  }
+}
+
+// segunda seccion
+.coteiner-target {
+  background-color: $DarkBlue-main;
+  width: 100%;
+  padding: 3em 0;
+  overflow-x: hidden;
+  .u-target {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    img {
+      width: 72px;
+      height: 68px;
+      margin: 0 50%;
+      transform: translateX(-50%);
+      display: inline-block;
+      padding: 1.3em;
+    }
+    h2 {
+      text-align: center;
+      color: $White;
+      padding: 1.1em;
+    }
+    p {
+      text-align: center;
+      color: $White;
+      padding: 0 1.6em;
+      padding-bottom: 3em;
+    }
+  }
+}
